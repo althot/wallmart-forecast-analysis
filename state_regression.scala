@@ -1,5 +1,6 @@
 import org.apache.spark.ml.regression.LinearRegression
 import org.apache.spark.ml.evaluation.RegressionEvaluator
+import org.apache.spark.ml.feature.VectorSlicer
 
 var testBase = "/store/train_"
 var testBase = "/store/test_"
